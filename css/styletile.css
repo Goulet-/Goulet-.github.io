@@ -1,0 +1,104 @@
+/*Primary Header*/
+h1 {
+	font-family: 'Advent Pro', sans-serif;
+	color: #85CEC2;
+	font-size: 3em;
+}
+
+.main-nav {
+	text-decoration: none;
+	text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+ 
+
+}
+/*Body Text*/
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	color: #000;
+	letter-spacing: .5em;
+}
+/* Base Line Links*/
+a:link,
+a:visited {
+	text-transform: uppercase;
+	text-decoration:none ;
+	color: #4d4d4d;
+}
+
+a:hover {
+	color: #85CEC2;
+  font-variant: small-caps;
+}
+
+/* Logo */
+img {
+	width: 500px;
+	height: 500px;
+}
+
+
+/* Set Your Own Margin & Padding */
+
+
+em{
+	line-height: 1em;
+}
+
+h1 {
+	list-style-type: square;
+}
+
+h2 {
+	font-size: 2em;
+	color: #4D4D4D;
+}
+
+h1, h2 ,h3, br {
+	line-height: 1em;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+	padding: 15px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+.color-1 {
+	background: #85CEC2;
+}
+.color-2 {
+	background: #6ACBDA;
+}
+.color-3 {
+	background: #4D4D4D;
+}
+
+.pattern-1 {
+	background: url("../img/pattern1.png") no-repeat;
+} 
+.pattern-2 {
+	background: url("../img/pattern2.png") no-repeat;
+} 
+.pattern-3 {
+	background: url("../img/pattern3.png") no-repeat;
+} 
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

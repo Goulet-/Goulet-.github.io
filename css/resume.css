@@ -1,0 +1,63 @@
+/* Your Website Styles */
+body {
+	font-size: 1.25em;
+	line-height: 1.6;
+	background: #4d4d4d;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+p {
+	font-size: 23px;
+	padding: 8px;
+	text-indent: 1.5em;
+	float: right;
+}
+
+
+div {
+	margin-top: -60px;
+	padding: 30px;
+}
+
+div h1 {
+	width: 1000px;
+	color: #4d4d4d;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: #fff;
+}
+
+h1 {
+	font-size: 2.369em;
+	line-height: .5;
+	color: #4d4d4d;
+	margin: auto;
+}
+
+h2 {
+	text-align: right;
+	font-size: .9em;
+	margin: 0 auto;
+	text-indent: 2.1em;
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 1.777em;
+	color: #4d4d4d;
+}
+
+li {
+	text-align: center;
+	letter-spacing: 5px;
+	list-style: none;
+	padding-right: 25px;
+}
+
+#footer {
+	display: inline-flex;
+}
