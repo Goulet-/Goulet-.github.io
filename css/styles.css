@@ -1,0 +1,28 @@
+h1 {
+    background-color: #85CEC2;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em;
+}
+
+body {
+  text-align: center;
+}
+
+img {
+  border-radius:50% 50% 50% 50%;  
+  width:500px;
+  height:500px;
+}
+
+nav,a  {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
