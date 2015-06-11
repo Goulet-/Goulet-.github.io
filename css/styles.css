@@ -1,28 +1,178 @@
-h1 {
-    background-color: #85CEC2;
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 2em;
-}
-
-body {
-  text-align: center;
-}
-
-img {
-  border-radius:50% 50% 50% 50%;  
-  width:500px;
-  height:500px;
-}
-
-nav,a  {
-  text-align: center;
-  padding: 20px;
+/*left navigation*/
+.nav-link {
   text-decoration: none;
-  color: black;
+  color: ivory;
+  display: block;
+  line-height: 50px;
+  font-size: 21px;
+  text-align: center;
+  font-family: Oswald;
+  padding-top: 10%;
+}
+
+.inline-block {
+	padding: 17px;
+}
+
+.banner { 
+	text-align: center;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://daks2k3a4ib2z.cloudfront.net/557349bc2c8ef0771fa9cf99/55734c652c8ef0771fa9cff3_524329_373807879319909_1015623022_n.jpg);
+  background-position: 0% 0%, 75% 50%;
+  background-repeat: repeat, no-repeat;
+  padding-right: 0px;
+  margin-right: 0px;
+  font-family: Oswald; 
+  font-size: 16px;
+  line-height: 46px;
+}
+
+.welcome {
+  margin-bottom: 19px;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.left-navigation {
+ 	position: fixed;
+ 	width: 329px;
+ 	height: 100%;
+ 	background-color: rgb(45, 62, 79);
+ 	display: block;
+ 	top: 0px;
+ 	bottom: 0px;
+ 	left: 0px;
+}
+
+.blank-2 {
+  height: 21em;
+}
+
+/*main content*/
+
+#about {
+	margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    position: relative;
+    padding: 63px 40px;
+}
+
+.section-call {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    position: relative;
+    padding: 63px 40px;
 }
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+.heading-center {
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
 }
+
+.subheading-center {
+	text-align: center;
+  margin: 60px;
+}
+
+
+
+/*Portfolio images*/
+.port1 img {
+  max-width: 100%;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+
+.form-wrapper {
+	display: block;
+	padding-left: 19%;
+	padding-right: 19%;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px;
+  background-color: indianred;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+}
+
+.container {
+	margin-left: 280px;
+}
+
+.blank {
+  height: 14em;
+}
+
+
+p {
+  height: 80px;
+  width: 497px;
+  line-height: 2em;
+  display: inline-block;
+  text-align: center; 
+}
+
+h1 {
+  padding-top: 1%;
+	padding-left: 25%;
+	color: ivory;
+
+}
+
+
+/*media queries*/
+
+@media (min-width: 1px) and (max-width: 767px;) {
+  .grid-container > [class^="grid-"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/*Java*/
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  margin-top:10%;
+  
+}
+
+#overlay p {
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
